@@ -3,13 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>Weather app</title>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <h1>Check your weather in your city</h1>
-    <form action="/" method="post">
-      <label for="cityinput">City Pin code:</label>
-      <input id="cityinput" type="text" name="CityName">
-      <button type="submit" >Go</button>
-    </form>
+    <div class="box" id="heading">
+      <h1 style="color:purple">Check your weather in your city</h1>
+    </div>
+    <div class="box">
+      <form action="/" method="post">
+        <label for="cityinput"><h2>City Pin code:</h2></label>
+        <input id="cityinput" type="text" name="CityName">
+        <button type="submit" >Go</button>
+      </form>
+    </div>
+
   </body>
 </html>
