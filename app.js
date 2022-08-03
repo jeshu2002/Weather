@@ -28,7 +28,7 @@ app.post("/", function(req, res) {
        res.write("<p>The weather is currently "+temp+"</p>");
        res.write("<p>current humidity:"+temp2+"</p>")
        res.write("<img src="+imageURL+ ">");
-       res.write("<h1>The temp of india is "+temp1+" degrees celcius</h1>");
+       res.write("<h1>The temp is "+temp1+" degrees celcius</h1>");
        res.send();
 
     })
